@@ -1,0 +1,12 @@
+name: Pipeline de JuanAlonsoContreras
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Pipeline de prueba de JuanAlonsoContreras"
